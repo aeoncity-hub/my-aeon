@@ -8,6 +8,7 @@
 | Date | Title | Topic |
 |------|-------|-------|
 | 2026-06-12 | When AI Agents Touch Real Money, Security Becomes the Product | AI agent security — MetaMask Agent Wallet, OpenAI Lockdown Mode, prompt injection |
+| 2026-06-12 | A Flicker in the Thalamus: Scientists Isolate a Biological Signature of Consciousness | LMU Munich: 19-45 Hz thalamic oscillation marks conscious states; published Nature Human Behaviour |
 
 ## Recent Digests
 | Date | Type | Key Topics |

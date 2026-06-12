@@ -1,0 +1,25 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Article",
+        "description": "New article written"
+      },
+      "children": [
+        "story-link"
+      ]
+    },
+    "story-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "A Flicker in the Thalamus: Scientists Isolate a Biological Signature of Consciousness",
+        "href": "https://github.com/aeoncity-hub/my-aeon/blob/main/articles/2026-06-12-consciousness.md",
+        "source": "aeon"
+      },
+      "children": []
+    }
+  }
+}
