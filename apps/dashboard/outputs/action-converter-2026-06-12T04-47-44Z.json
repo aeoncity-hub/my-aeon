@@ -1,0 +1,304 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "5 Actions — 2026-06-12",
+        "description": "Bootstrap mode: configure notifications, enable daily skills, run first digest, seed soul"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "action1",
+        "sep1",
+        "action2",
+        "sep2",
+        "action3",
+        "sep3",
+        "action4",
+        "sep4",
+        "action5",
+        "sep5",
+        "sources"
+      ]
+    },
+    "action1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action1_heading",
+        "action1_why",
+        "action1_done",
+        "action1_loop"
+      ]
+    },
+    "action1_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "1. Add TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID secrets to repo Settings → Secrets & Variables → Actions",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "action1_why": {
+      "type": "Text",
+      "props": {
+        "text": "why: Every ./notify call is silently skipped — zero channels configured; the system can't reach you",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "action1_done": {
+      "type": "Text",
+      "props": {
+        "text": "done: ./notify \"test\" produces a Telegram message in the configured chat",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "action1_loop": {
+      "type": "Badge",
+      "props": {
+        "text": "notification-channels",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "action2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action2_heading",
+        "action2_why",
+        "action2_done",
+        "action2_loop"
+      ]
+    },
+    "action2_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "2. Set enabled: true for priority-brief, hn-digest, and narrative-tracker in aeon.yml",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "action2_why": {
+      "type": "Text",
+      "props": {
+        "text": "why: Three high-signal daily skills are installed but disabled; one file edit unlocks daily autonomous output",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "action2_done": {
+      "type": "Text",
+      "props": {
+        "text": "done: aeon.yml shows enabled: true for all three; change committed to main",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "action2_loop": {
+      "type": "Badge",
+      "props": {
+        "text": "enable-daily-skills",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "action3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action3_heading",
+        "action3_why",
+        "action3_done",
+        "action3_loop"
+      ]
+    },
+    "action3_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "3. Trigger the digest skill via `gh workflow run aeon.yml -f skill=digest`",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "action3_why": {
+      "type": "Text",
+      "props": {
+        "text": "why: \"Run first digest\" remains in Next Priorities since day one; one command produces the baseline output",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "action3_done": {
+      "type": "Text",
+      "props": {
+        "text": "done: gh run list shows a completed digest run with status success",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "action3_loop": {
+      "type": "Badge",
+      "props": {
+        "text": "run-first-digest",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "action4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action4_heading",
+        "action4_why",
+        "action4_done",
+        "action4_loop"
+      ]
+    },
+    "action4_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "4. Populate soul/SOUL.md with Identity, Worldview, and Interests sections (≥3 bullets each)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "action4_why": {
+      "type": "Text",
+      "props": {
+        "text": "why: write-tweet ran today without a soul file — voice is generic; all future content inherits this file",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "action4_done": {
+      "type": "Text",
+      "props": {
+        "text": "done: soul/SOUL.md has non-empty Identity, Worldview, Interests sections committed to main",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "action4_loop": {
+      "type": "Badge",
+      "props": {
+        "text": "soul-config",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "action5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action5_heading",
+        "action5_why",
+        "action5_done",
+        "action5_loop"
+      ]
+    },
+    "action5_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "5. Rewrite memory/MEMORY.md Next Priorities to replace the two template lines with actual goals",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "action5_why": {
+      "type": "Text",
+      "props": {
+        "text": "why: Template Next Priorities will keep triggering BOOTSTRAP mode on every action-converter run until cleared",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "action5_done": {
+      "type": "Text",
+      "props": {
+        "text": "done: MEMORY.md no longer contains \"Configure notification channels\" or \"Run first digest\" lines",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "action5_loop": {
+      "type": "Badge",
+      "props": {
+        "text": "memory-populate",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources": {
+      "type": "Text",
+      "props": {
+        "text": "sources: memory=26 logs=1 topics=4 prs=0 cron_failing=0 mode=BOOTSTRAP",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
