@@ -127,3 +127,8 @@ When writing new skills, always include a "Sandbox note" section with the approp
 ## Output
 
 After completing any task, end with a `## Summary` listing what you did, files created/modified, and follow-up actions needed.
+
+
+## Repo identity
+
+When you reference THIS repository's URL, owner, or slug anywhere — article links, tweet links, notifications, commit messages, `.outputs` reports — always use the real value from the `$GITHUB_REPOSITORY` env var (GitHub Actions sets it to this repo's `owner/repo`; run `echo "$GITHUB_REPOSITORY"` if you are unsure). NEVER guess the owner or copy it from the README or docs — the `@aeonframework` badges/links there are the framework's X handle, NOT this repo's owner. The canonical link to a file in this repo is `https://github.com/$GITHUB_REPOSITORY/blob/<branch>/<path>`.
