@@ -1,0 +1,268 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Agent Buzz",
+        "description": "2026-06-12"
+      },
+      "children": [
+        "subtitle",
+        "security-section",
+        "sep1",
+        "infra-section",
+        "sep2",
+        "capital-section",
+        "sep3",
+        "footer"
+      ]
+    },
+    "subtitle": {
+      "type": "Text",
+      "props": {
+        "text": "Security governance landed in force — three enforcement tools in 72h, two infra bets on model independence, and agents going live with real DeFi capital.",
+        "variant": "lead"
+      }
+    },
+    "security-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "security-heading",
+        "item1-stack",
+        "item2-stack"
+      ]
+    },
+    "security-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Agent security enforcement multiplying",
+        "level": "h2"
+      }
+    },
+    "item1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lockdown-mode",
+        "lockdown-desc"
+      ]
+    },
+    "lockdown-mode": {
+      "type": "StoryLink",
+      "props": {
+        "title": "OpenAI Lockdown Mode",
+        "href": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/",
+        "source": "OpenAI"
+      }
+    },
+    "lockdown-desc": {
+      "type": "Text",
+      "props": {
+        "text": "First opt-in kill switch for agentic capabilities: disables Agent Mode, live web, and Deep Research to block prompt injection for sensitive-data orgs",
+        "variant": "caption"
+      }
+    },
+    "item2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "linx-gateway",
+        "linx-desc"
+      ]
+    },
+    "linx-gateway": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Linx Security MCP Gateway",
+        "href": "https://finance.yahoo.com/sectors/technology/articles/linx-security-launches-agentic-access-134200657.html",
+        "source": "Yahoo Finance"
+      }
+    },
+    "linx-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Per-tool-call allow/deny inline before execution; closes the gap between \"server access\" and \"every tool on that server\"",
+        "variant": "caption"
+      }
+    },
+    "infra-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "infra-heading",
+        "item3-stack",
+        "item4-stack"
+      ]
+    },
+    "infra-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infrastructure bets on model independence",
+        "level": "h2"
+      }
+    },
+    "item3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "niteshift",
+        "niteshift-desc"
+      ]
+    },
+    "niteshift": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@niteshift_dev — Datadog vets raise $7M",
+        "href": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
+        "source": "TechCrunch"
+      }
+    },
+    "niteshift-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Routes coding agents across Claude/GPT/OSS per-project; charges like cloud infra, not tokens — the anti-lock-in play",
+        "variant": "caption"
+      }
+    },
+    "item4-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "agnt8x",
+        "agnt8x-desc"
+      ]
+    },
+    "agnt8x": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@agnt8x — Apache 2.0 YAML spec (EAM v0.1)",
+        "href": "https://github.com/jshipman888/eam-spec",
+        "source": "GitHub"
+      }
+    },
+    "agnt8x-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Portable agent definitions; an agent compiled to any runtime, beholden to no vendor",
+        "variant": "caption"
+      }
+    },
+    "capital-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "capital-heading",
+        "item5-stack",
+        "item6-stack"
+      ]
+    },
+    "capital-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Agents managing real capital",
+        "level": "h2"
+      }
+    },
+    "item5-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "metamask",
+        "metamask-desc"
+      ]
+    },
+    "metamask": {
+      "type": "StoryLink",
+      "props": {
+        "title": "@MetaMask Agent Wallet",
+        "href": "https://metamask.io/news/metamask-launches-agent-wallet-giving-ai-agents-full-defi-access-with-default-security-on-every-transaction",
+        "source": "MetaMask"
+      }
+    },
+    "metamask-desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI autonomously trades across 10 EVM chains; simulation + MEV protection + $10K tx coverage; 200-spot early access live",
+        "variant": "caption"
+      }
+    },
+    "item6-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "memory-bias",
+        "memory-bias-desc"
+      ]
+    },
+    "memory-bias": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Memory bias research",
+        "href": "https://arxiv.org/pdf/2603.11768",
+        "source": "arXiv"
+      }
+    },
+    "memory-bias-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Agent memory \"biases intent inference toward earlier user inputs\" — new safety vector orthogonal to existing prompt injection defences",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Text",
+      "props": {
+        "text": "src: websearch (degraded · no tweet IDs) · candidates: ~18 news items → kept: 6",
+        "variant": "muted"
+      }
+    }
+  }
+}
