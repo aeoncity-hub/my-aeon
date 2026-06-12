@@ -539,6 +539,11 @@ jobs:
           else
             PROMPT="Today is $TODAY. Read and execute the skill defined in skills/${SKILL_NAME}/SKILL.md"
           fi
+          # Give skills this repo's real slug so they never guess the owner (e.g. from
+          # the README @aeonframework handle). GITHUB_REPOSITORY is owner/repo of the run.
+          PROMPT="$PROMPT
+
+          This repository is $GITHUB_REPOSITORY. Use it verbatim for any link or reference to this repo, e.g. https://github.com/$GITHUB_REPOSITORY/blob/main/<path>. Never infer the owner from the README, whose @aeonframework badges are the framework X handle, not this repo owner."
           if [ -n "$VAR" ]; then
             PROMPT="$PROMPT
 
