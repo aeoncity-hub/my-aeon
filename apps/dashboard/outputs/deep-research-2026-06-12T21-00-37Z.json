@@ -1,0 +1,240 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Deep Research: AI Agent Infrastructure in 2026",
+        "description": "MCP Adoption, Tool-Call Security, and the Race to Production"
+      },
+      "children": [
+        "metadata-stack",
+        "narrative-section",
+        "sep1",
+        "findings-section",
+        "sep2",
+        "data-points-section",
+        "sep3",
+        "report-section"
+      ]
+    },
+    "metadata-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "date-badge",
+        "sources-badge",
+        "papers-badge"
+      ]
+    },
+    "date-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "2026-06-12",
+        "variant": "secondary"
+      }
+    },
+    "sources-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "33 sources (T1:11 T2:19 T3:3)",
+        "variant": "secondary"
+      }
+    },
+    "papers-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "5 papers",
+        "variant": "secondary"
+      }
+    },
+    "narrative-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "opening-heading",
+        "narrative-text"
+      ]
+    },
+    "opening-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Executive Summary",
+        "level": "h2"
+      }
+    },
+    "narrative-text": {
+      "type": "Text",
+      "props": {
+        "text": "The AI agent infrastructure story of mid-2026 is a paradox: MCP has achieved remarkable protocol-layer standardization in record time (97M monthly downloads, 10K+ servers, all major platforms), while the operational layer — security, governance, production deployment — is dangerously immature. The defining crisis: 78-89% of enterprises have agent pilots, but fewer than 15% have moved anything to production at scale.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "findings-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "findings-heading",
+        "findings-table"
+      ]
+    },
+    "findings-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Findings",
+        "level": "h2"
+      }
+    },
+    "findings-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Finding",
+          "Details",
+          "Confidence"
+        ],
+        "rows": [
+          [
+            "MCP Security Crisis",
+            "66% of scanned servers have vulnerabilities; 30+ CVEs in Jan-Feb 2026; NSA issued a CIS specifically on MCP; NIST red-teams achieve 81% attack success rates",
+            "High"
+          ],
+          [
+            "Production Deployment Gap",
+            "88% of enterprise agent projects fail to reach production; $2.1M average sunk cost; Gartner predicts 40% cancellation by 2027 — the gap is infrastructure, not capability",
+            "High"
+          ],
+          [
+            "TCO Severely Underestimated",
+            "Actual cost is 3.4x API-only estimates; multi-agent systems burn 15x more tokens; only 34% of orgs have per-agent cost attribution",
+            "Medium"
+          ],
+          [
+            "Governance Emerging but Orphaned",
+            "OWASP Top 10, NIST framework, Microsoft toolkit all shipped in last 6 months — but only 8% of orgs have incident response plans; EU AI Act effective August 2026",
+            "High"
+          ],
+          [
+            "ROI Bimodal and Survivorship-Biased",
+            "Average 171% masks 88% failure rate; Klarna ($60M saved) and JPMorgan (360K lawyer-hours/year) coexist with 19% of deployments that never reach payback",
+            "High"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "data-points-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "strongest-subsection",
+        "open-question-subsection"
+      ]
+    },
+    "strongest-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "strongest-heading",
+        "strongest-text"
+      ]
+    },
+    "strongest-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Strongest Data Point",
+        "level": "h3"
+      }
+    },
+    "strongest-text": {
+      "type": "Text",
+      "props": {
+        "text": "97% of security leaders expect a material AI-agent incident within the year; only 14% of deployed agents received security approval before deployment (Lasso Security, T2)",
+        "variant": "body"
+      }
+    },
+    "open-question-subsection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "open-question-heading",
+        "open-question-text"
+      ]
+    },
+    "open-question-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Biggest Open Question",
+        "level": "h3"
+      }
+    },
+    "open-question-text": {
+      "type": "Text",
+      "props": {
+        "text": "Will MCP's first major enterprise supply chain attack arrive before governance frameworks reach mass adoption?",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "report-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "report-heading",
+        "report-link"
+      ]
+    },
+    "report-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Full Report",
+        "level": "h3"
+      }
+    },
+    "report-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "deep-research-2026-06-12.md",
+        "href": "articles/deep-research-2026-06-12.md"
+      }
+    }
+  }
+}

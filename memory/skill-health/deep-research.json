@@ -1,0 +1,14 @@
+{
+  "skill": "deep-research",
+  "last_analyzed": "2026-06-12T21:00:37Z",
+  "quality_score": 4,
+  "assessment": "Substantive, well-sourced research with specific findings and proper file outputs; truncated summary prevents full verification of depth.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-06-12",
+      "score": 4
+    }
+  ]
+}
