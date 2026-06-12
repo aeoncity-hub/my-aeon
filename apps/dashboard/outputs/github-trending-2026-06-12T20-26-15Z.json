@@ -1,0 +1,638 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "GitHub Trending — 2026-06-12"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "top-pick-section",
+        "separator-1",
+        "aiml-section",
+        "separator-2",
+        "devtools-section",
+        "separator-3",
+        "infra-section",
+        "separator-4",
+        "sources-section"
+      ]
+    },
+    "top-pick-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "top-pick-heading",
+        "top-pick-repo"
+      ]
+    },
+    "top-pick-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top pick",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "top-pick-repo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "top-pick-link",
+        "top-pick-desc"
+      ]
+    },
+    "top-pick-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "apple/container",
+        "href": "https://github.com/apple/container"
+      },
+      "children": []
+    },
+    "top-pick-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Apple shipping a Mac-native container runtime via lightweight VMs is a direct signal that Docker Desktop's grip on the default dev toolchain may finally be breaking.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "aiml-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiml-heading",
+        "aiml-repo-1",
+        "aiml-repo-2",
+        "aiml-repo-3"
+      ]
+    },
+    "aiml-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI/ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "aiml-repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-link",
+        "aiml-1-meta",
+        "aiml-1-desc"
+      ]
+    },
+    "aiml-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "addyosmani/agent-skills",
+        "href": "https://github.com/addyosmani/agent-skills"
+      },
+      "children": []
+    },
+    "aiml-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-1-stars",
+        "aiml-1-lang",
+        "aiml-1-status"
+      ]
+    },
+    "aiml-1-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "2,660",
+        "delta": "56.6k total",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "aiml-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "aiml-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "aiml-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Production-grade agentic skill specs from Addy Osmani — codified playbook for AI coding agents, gaining 56k stars in ~4 months.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "aiml-repo-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-link",
+        "aiml-2-meta",
+        "aiml-2-desc"
+      ]
+    },
+    "aiml-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "msitarzewski/agency-agents",
+        "href": "https://github.com/msitarzewski/agency-agents"
+      },
+      "children": []
+    },
+    "aiml-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-2-stars",
+        "aiml-2-lang",
+        "aiml-2-status"
+      ]
+    },
+    "aiml-2-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "1,040",
+        "delta": "112.3k total",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "aiml-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "aiml-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "aiml-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Pre-built specialist AI agents (frontend, community, research) in one Shell repo — still pulling 1k+ stars/day at 112k total.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "aiml-repo-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-3-link",
+        "aiml-3-meta",
+        "aiml-3-desc"
+      ]
+    },
+    "aiml-3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "maziyarpanahi/openmed",
+        "href": "https://github.com/maziyarpanahi/openmed"
+      },
+      "children": []
+    },
+    "aiml-3-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "aiml-3-stars",
+        "aiml-3-lang",
+        "aiml-3-status"
+      ]
+    },
+    "aiml-3-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "517",
+        "delta": "3.2k total",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "aiml-3-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Python",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "aiml-3-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "aiml-3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "First serious open-source healthcare AI platform with structured LLM tooling — rare in a space dominated by closed vendors.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "devtools-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "devtools-heading",
+        "devtools-repo-1",
+        "devtools-repo-2"
+      ]
+    },
+    "devtools-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Devtools",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "devtools-repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-link",
+        "devtools-1-meta",
+        "devtools-1-desc"
+      ]
+    },
+    "devtools-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "obra/superpowers",
+        "href": "https://github.com/obra/superpowers"
+      },
+      "children": []
+    },
+    "devtools-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-1-stars",
+        "devtools-1-lang",
+        "devtools-1-status"
+      ]
+    },
+    "devtools-1-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "1,276",
+        "delta": "225.9k total",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "devtools-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Shell",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "devtools-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "devtools-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Opinionated agentic dev methodology at 225k stars — the workflow framework AI-augmented devs keep converging on.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "devtools-repo-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-2-link",
+        "devtools-2-meta",
+        "devtools-2-desc"
+      ]
+    },
+    "devtools-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "refactoringhq/tolaria",
+        "href": "https://github.com/refactoringhq/tolaria"
+      },
+      "children": []
+    },
+    "devtools-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "devtools-2-stars",
+        "devtools-2-lang",
+        "devtools-2-status"
+      ]
+    },
+    "devtools-2-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "369",
+        "delta": "15.7k total",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "devtools-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "TypeScript",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "devtools-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "devtools-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Obsidian-style markdown KB as a native desktop app — no subscription, no sync service, local files only.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "infra-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "infra-heading",
+        "infra-repo-1",
+        "infra-repo-2"
+      ]
+    },
+    "infra-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Infra",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "infra-repo-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra-1-link",
+        "infra-1-meta",
+        "infra-1-desc"
+      ]
+    },
+    "infra-1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "apple/container",
+        "href": "https://github.com/apple/container"
+      },
+      "children": []
+    },
+    "infra-1-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra-1-stars",
+        "infra-1-lang",
+        "infra-1-status"
+      ]
+    },
+    "infra-1-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "3,513",
+        "delta": "34.9k total",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "infra-1-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Swift",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "infra-1-status": {
+      "type": "Badge",
+      "props": {
+        "text": "ACCELERATING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "infra-1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "Apple's own Mac-native container runtime using lightweight VMs — sidesteps Docker Desktop entirely, written in Swift.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "infra-repo-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "infra-2-link",
+        "infra-2-meta",
+        "infra-2-desc"
+      ]
+    },
+    "infra-2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "masterking32/MasterDnsVPN",
+        "href": "https://github.com/masterking32/MasterDnsVPN"
+      },
+      "children": []
+    },
+    "infra-2-meta": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "infra-2-stars",
+        "infra-2-lang",
+        "infra-2-status"
+      ]
+    },
+    "infra-2-stars": {
+      "type": "Stat",
+      "props": {
+        "label": "Stars today",
+        "value": "401",
+        "delta": "6k total",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "infra-2-lang": {
+      "type": "Badge",
+      "props": {
+        "text": "Go",
+        "variant": "secondary"
+      },
+      "children": []
+    },
+    "infra-2-status": {
+      "type": "Badge",
+      "props": {
+        "text": "RETURNING",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "infra-2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "DNS tunnel VPN with lower ARQ overhead than DNSTT — practical censorship bypass for constrained or monitored networks.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sources-section": {
+      "type": "Text",
+      "props": {
+        "text": "sources: trending=ok · gh_api=ok · kept 7/13",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
