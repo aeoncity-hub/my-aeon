@@ -1,0 +1,100 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat"
+      },
+      "children": [
+        "alert_failed",
+        "sep1",
+        "details_stack"
+      ]
+    },
+    "alert_failed": {
+      "type": "Alert",
+      "props": {
+        "title": "Status: Failed",
+        "message": "Failed 2026-06-12 14:18 UTC · self-check: no prior success on record",
+        "type": "error"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_related",
+        "text_article_queue",
+        "sep2",
+        "heading_diagnosis",
+        "text_diagnostic",
+        "text_cause",
+        "sep3",
+        "alert_action"
+      ]
+    },
+    "heading_related": {
+      "type": "Heading",
+      "props": {
+        "text": "Related Failures",
+        "level": "h3"
+      }
+    },
+    "text_article_queue": {
+      "type": "Text",
+      "props": {
+        "text": "article-queue: 2 consecutive failures · last failed 17:04 UTC"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_diagnosis": {
+      "type": "Heading",
+      "props": {
+        "text": "Diagnosis",
+        "level": "h3"
+      }
+    },
+    "text_diagnostic": {
+      "type": "Text",
+      "props": {
+        "text": "Both failures show 0 input/output tokens — Claude was not invoked."
+      }
+    },
+    "text_cause": {
+      "type": "Text",
+      "props": {
+        "text": "Likely cause: API gateway or CLAUDE_CODE_OAUTH_TOKEN issue"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_action": {
+      "type": "Alert",
+      "props": {
+        "title": "Recommended Action",
+        "message": "Check the gateway config and retry",
+        "type": "warning"
+      }
+    }
+  }
+}
