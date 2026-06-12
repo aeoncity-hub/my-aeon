@@ -1,0 +1,401 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "write-tweet"
+      },
+      "children": [
+        "intro-text",
+        "separator1",
+        "oneliners-section",
+        "separator2",
+        "twopunch-section",
+        "separator3",
+        "paragraph-section",
+        "separator4",
+        "longtweet-section",
+        "separator5",
+        "threadopener-section",
+        "separator6",
+        "editorial"
+      ]
+    },
+    "intro-text": {
+      "type": "Text",
+      "props": {
+        "text": "tweet drafts: SpaceX tokenized equity on Solana / the fear-vs-macro trade",
+        "variant": "lead"
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "oneliners-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "oneliners-heading",
+        "oneliners-1a",
+        "oneliners-1b"
+      ]
+    },
+    "oneliners-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "one-liner",
+        "level": "h3"
+      }
+    },
+    "oneliners-1a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1a",
+        "text-1a"
+      ]
+    },
+    "badge-1a": {
+      "type": "Badge",
+      "props": {
+        "text": "1a",
+        "variant": "outline"
+      }
+    },
+    "text-1a": {
+      "type": "Text",
+      "props": {
+        "text": "SpaceX on Solana is reflexivity: the trade that validates itself."
+      }
+    },
+    "oneliners-1b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1b",
+        "text-1b"
+      ]
+    },
+    "badge-1b": {
+      "type": "Badge",
+      "props": {
+        "text": "1b",
+        "variant": "outline"
+      }
+    },
+    "text-1b": {
+      "type": "Text",
+      "props": {
+        "text": "Fear index at 12. BTC $63K. Iran de-escalates. The lag is the trade."
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "twopunch-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "twopunch-heading",
+        "twopunch-2a",
+        "twopunch-2b"
+      ]
+    },
+    "twopunch-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "two-punch",
+        "level": "h3"
+      }
+    },
+    "twopunch-2a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-2a",
+        "text-2a"
+      ]
+    },
+    "badge-2a": {
+      "type": "Badge",
+      "props": {
+        "text": "2a",
+        "variant": "outline"
+      }
+    },
+    "text-2a": {
+      "type": "Text",
+      "props": {
+        "text": "SpaceX IPO lands on Solana with $200M in perp OI on day one. That's not hype — that's TradFi testing a new settlement layer."
+      }
+    },
+    "twopunch-2b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-2b",
+        "text-2b"
+      ]
+    },
+    "badge-2b": {
+      "type": "Badge",
+      "props": {
+        "text": "2b",
+        "variant": "outline"
+      }
+    },
+    "text-2b": {
+      "type": "Text",
+      "props": {
+        "text": "BTC at $63K and fear index 12 while macro goes full risk-on. BlackRock doesn't file ETFs into fear troughs for the vibes."
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "paragraph-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "paragraph-heading",
+        "paragraph-3a",
+        "paragraph-3b"
+      ]
+    },
+    "paragraph-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "paragraph",
+        "level": "h3"
+      }
+    },
+    "paragraph-3a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-3a",
+        "text-3a"
+      ]
+    },
+    "badge-3a": {
+      "type": "Badge",
+      "props": {
+        "text": "3a",
+        "variant": "outline"
+      }
+    },
+    "text-3a": {
+      "type": "Text",
+      "props": {
+        "text": "SpaceX equity onchain via Ondo and Kraken is the biggest live test of tokenized equities yet. The loop: IPO narrative pulls TradFi eyes to Solana → more issuers follow → thesis validates itself. The risk is whether it holds post-listing or dies as a one-day meme."
+      }
+    },
+    "paragraph-3b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-3b",
+        "text-3b"
+      ]
+    },
+    "badge-3b": {
+      "type": "Badge",
+      "props": {
+        "text": "3b",
+        "variant": "outline"
+      }
+    },
+    "text-3b": {
+      "type": "Text",
+      "props": {
+        "text": "Iran stands down. VIX compresses. Dollar weakens. BlackRock quietly files a Bitcoin ETF into the fear trough. And crypto sits at extreme fear, index 12, refusing to get the memo. The market will eventually agree with itself."
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "longtweet-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "longtweet-heading",
+        "longtweet-4a",
+        "longtweet-4b"
+      ]
+    },
+    "longtweet-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "long tweet",
+        "level": "h3"
+      }
+    },
+    "longtweet-4a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-4a",
+        "text-4a"
+      ]
+    },
+    "badge-4a": {
+      "type": "Badge",
+      "props": {
+        "text": "4a",
+        "variant": "outline"
+      }
+    },
+    "text-4a": {
+      "type": "Text",
+      "props": {
+        "text": "SpaceX IPO didn't just list on Nasdaq — it listed on Solana. $200M in perp OI on Hyperliquid day one, tokenized equity via Ondo and Kraken. This is the reflexivity trade in motion: IPO narrative brings TradFi eyes to Solana, credibility rises, more issuers want on-chain exposure, more assets land, thesis self-confirms. It's happening while crypto sits at extreme fear (index: 12). BlackRock is also filing $BITA into the trough. When this many smart actors are moving against sentiment at the same time, the lag between macro and crypto is usually the last thing to close."
+      }
+    },
+    "longtweet-4b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-4b",
+        "text-4b"
+      ]
+    },
+    "badge-4b": {
+      "type": "Badge",
+      "props": {
+        "text": "4b",
+        "variant": "outline"
+      }
+    },
+    "text-4b": {
+      "type": "Text",
+      "props": {
+        "text": "The question about SpaceX onchain equity isn't whether $SPCX is a good investment. It's whether Solana becomes the default settlement layer for tokenized real-world assets. That's a much bigger bet — and it either snowballs (reflexivity) or it doesn't. The fear index at 12, BlackRock filing $BITA, and macro going risk-on post-Iran all suggest the context for that snowball is forming. Timing is the only question left."
+      }
+    },
+    "separator5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "threadopener-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "threadopener-heading",
+        "threadopener-5a",
+        "threadopener-5b"
+      ]
+    },
+    "threadopener-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "thread opener",
+        "level": "h3"
+      }
+    },
+    "threadopener-5a": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-5a",
+        "text-5a"
+      ]
+    },
+    "badge-5a": {
+      "type": "Badge",
+      "props": {
+        "text": "5a",
+        "variant": "outline"
+      }
+    },
+    "text-5a": {
+      "type": "Text",
+      "props": {
+        "text": "SpaceX just tokenized its equity on Solana. $200M in OI on Hyperliquid day one. This isn't a gimmick — it's a test of whether blockchains can replace the plumbing of capital markets. Here's what I'm watching."
+      }
+    },
+    "threadopener-5b": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-5b",
+        "text-5b"
+      ]
+    },
+    "badge-5b": {
+      "type": "Badge",
+      "props": {
+        "text": "5b",
+        "variant": "outline"
+      }
+    },
+    "text-5b": {
+      "type": "Text",
+      "props": {
+        "text": "The most important crypto development in years isn't a new L2 or a meme coin. It's SpaceX equity trading onchain. If this works, every IPO becomes a Solana event. That's the thesis. Watch whether it holds in a week."
+      }
+    },
+    "separator6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "editorial": {
+      "type": "Alert",
+      "props": {
+        "title": "Editorial pick",
+        "message": "best: #4b — question/reframe / tier 4 — tightest synthesis of the reflexivity thesis; asks a real question and builds to a crisp conclusion",
+        "type": "info"
+      }
+    }
+  }
+}

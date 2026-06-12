@@ -1,0 +1,14 @@
+{
+  "skill": "write-tweet",
+  "last_analyzed": "2026-06-12T04:28:42Z",
+  "quality_score": 4,
+  "assessment": "Substantive, multi-tiered tweet drafts with strong market context and analytical depth; truncated at Tier 5.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-06-12",
+      "score": 4
+    }
+  ]
+}
