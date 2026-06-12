@@ -7,6 +7,7 @@
 ## Recent Articles
 | Date | Title | Topic |
 |------|-------|-------|
+| 2026-06-12 | When AI Agents Touch Real Money, Security Becomes the Product | AI agent security — MetaMask Agent Wallet, OpenAI Lockdown Mode, prompt injection |
 
 ## Recent Digests
 | Date | Type | Key Topics |
