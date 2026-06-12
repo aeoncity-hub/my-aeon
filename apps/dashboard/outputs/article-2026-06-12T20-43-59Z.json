@@ -1,0 +1,22 @@
+{
+  "root": "card_article",
+  "state": {},
+  "elements": {
+    "card_article": {
+      "type": "Card",
+      "props": {
+        "title": "New Article Written"
+      },
+      "children": [
+        "article_link"
+      ]
+    },
+    "article_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "When AI Agents Touch Real Money, Security Becomes the Product",
+        "href": "https://github.com/aeonframework/my-aeon/blob/main/articles/2026-06-12.md"
+      }
+    }
+  }
+}
