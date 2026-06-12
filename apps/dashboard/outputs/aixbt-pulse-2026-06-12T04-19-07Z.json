@@ -1,0 +1,221 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "AIXBT Pulse",
+        "description": "2026-06-12 04:00Z"
+      },
+      "children": [
+        "sep1",
+        "section_crypto",
+        "sep2",
+        "section_tradfi",
+        "sep3",
+        "section_new",
+        "sep4",
+        "section_bridge"
+      ]
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_crypto": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "crypto_heading",
+        "crypto_item1",
+        "crypto_item2",
+        "crypto_item3"
+      ]
+    },
+    "crypto_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CRYPTO",
+        "level": "h3"
+      }
+    },
+    "crypto_item1": {
+      "type": "Text",
+      "props": {
+        "text": "SpaceX $SPCX IPO: $200M+ OI on Hyperliquid perps, day-one tokenized equity on Solana via Ondo/Kraken — biggest live test of onchain equities yet",
+        "variant": "body"
+      }
+    },
+    "crypto_item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc_stat",
+        "fear_badge"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$63,000"
+      }
+    },
+    "fear_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Extreme Fear (Index 12)",
+        "variant": "destructive"
+      }
+    },
+    "crypto_item3": {
+      "type": "Text",
+      "props": {
+        "text": "BlackRock files $BITA Bitcoin Premium Income ETF into the trough",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_tradfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tradfi_heading",
+        "tradfi_item1",
+        "tradfi_item2"
+      ]
+    },
+    "tradfi_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TRADFI",
+        "level": "h3"
+      }
+    },
+    "tradfi_item1": {
+      "type": "Text",
+      "props": {
+        "text": "Trump calls off Iran strikes → equities rebound, VIX compresses, oil at 2-month lows, dollar + yields soften",
+        "variant": "body"
+      }
+    },
+    "tradfi_item2": {
+      "type": "Text",
+      "props": {
+        "text": "Positioning rotated defensives → cyclicals; global liquidity conditions improved",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_new": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "new_heading",
+        "new_item1",
+        "new_item2",
+        "new_item3"
+      ]
+    },
+    "new_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "NEW THIS PULL",
+        "level": "h3"
+      }
+    },
+    "new_item1": {
+      "type": "Text",
+      "props": {
+        "text": "SpaceX tokenized equity launch on Solana (first run — all items new)",
+        "variant": "body"
+      }
+    },
+    "new_item2": {
+      "type": "Text",
+      "props": {
+        "text": "BlackRock $BITA ETF filing",
+        "variant": "body"
+      }
+    },
+    "new_item3": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid OI = 20% of Binance's; World Cup + Polymarket driving prediction market onboarding",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_bridge": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "bridge_heading",
+        "bridge_para1",
+        "bridge_para2",
+        "bridge_para3"
+      ]
+    },
+    "bridge_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BRIDGE",
+        "level": "h3"
+      }
+    },
+    "bridge_para1": {
+      "type": "Text",
+      "props": {
+        "text": "Macro is flashing risk-on (Iran off, VIX down, dollar soft) but crypto is stuck in extreme fear. That lag is the trade.",
+        "variant": "body"
+      }
+    },
+    "bridge_para2": {
+      "type": "Text",
+      "props": {
+        "text": "BlackRock filing $BITA into the fear trough is the tell.",
+        "variant": "body"
+      }
+    },
+    "bridge_para3": {
+      "type": "Text",
+      "props": {
+        "text": "SpaceX onchain equity is reflexivity: IPO narrative → TradFi eyes on Solana → more issuers onchain → thesis validates itself. Watch whether it holds post-listing or dies as a one-day meme.",
+        "variant": "body"
+      }
+    }
+  }
+}
