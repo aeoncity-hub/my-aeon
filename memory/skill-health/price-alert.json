@@ -1,0 +1,14 @@
+{
+  "skill": "price-alert",
+  "last_analyzed": "2026-06-13T06:08:58Z",
+  "quality_score": 3,
+  "assessment": "Skill ran cleanly and correctly handled the unconfigured state with clear next-steps documentation, but produced no actual price data or alerts since no token is configured.",
+  "flags": [],
+  "avg_score": 3,
+  "history": [
+    {
+      "date": "2026-06-13",
+      "score": 3
+    }
+  ]
+}
