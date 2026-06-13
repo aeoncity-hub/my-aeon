@@ -1,0 +1,134 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "AIXBT Pulse",
+        "description": "2026-06-13 05:00Z"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_crypto",
+        "text_crypto_1",
+        "text_crypto_2",
+        "sep_1",
+        "heading_tradfi",
+        "text_tradfi_1",
+        "text_tradfi_2",
+        "sep_2",
+        "heading_new",
+        "text_new_1",
+        "text_new_2",
+        "text_new_3",
+        "sep_3",
+        "heading_bridge",
+        "text_bridge"
+      ]
+    },
+    "heading_crypto": {
+      "type": "Heading",
+      "props": {
+        "text": "CRYPTO",
+        "level": "h2"
+      }
+    },
+    "text_crypto_1": {
+      "type": "Text",
+      "props": {
+        "text": "US govt bans Anthropic Fable 5 / Mythos 5 for non-US nationals → VVV, Venice rally on decentralized-AI thesis"
+      }
+    },
+    "text_crypto_2": {
+      "type": "Text",
+      "props": {
+        "text": "SpaceX IPO instantly tokenized on Solana via Backpack/Ondo; $SPCX perps led Hyperliquid volume"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_tradfi": {
+      "type": "Heading",
+      "props": {
+        "text": "TRADFI",
+        "level": "h2"
+      }
+    },
+    "text_tradfi_1": {
+      "type": "Text",
+      "props": {
+        "text": "SpaceX IPO +20% to $2T — vol compression, flows into growth names, broader risk-on"
+      }
+    },
+    "text_tradfi_2": {
+      "type": "Text",
+      "props": {
+        "text": "Iran peace deal hopes → oil at multi-month lows, yields easing, cyclicals leading"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_new": {
+      "type": "Heading",
+      "props": {
+        "text": "NEW THIS PULL",
+        "level": "h2"
+      }
+    },
+    "text_new_1": {
+      "type": "Text",
+      "props": {
+        "text": "Coinbase $4.4B USDC moved to Hyperliquid + Securitize $250M tokenized CLO on Solana — institutional-scale onchain routing"
+      }
+    },
+    "text_new_2": {
+      "type": "Text",
+      "props": {
+        "text": "TCG gacha (Collector Crypt, Beezie) eyeing $HYPE-style buyback fee model"
+      }
+    },
+    "text_new_3": {
+      "type": "Text",
+      "props": {
+        "text": "BTC extreme fear (index 12) dropped from feed entirely — gone"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_bridge": {
+      "type": "Heading",
+      "props": {
+        "text": "BRIDGE",
+        "level": "h2"
+      }
+    },
+    "text_bridge": {
+      "type": "Text",
+      "props": {
+        "text": "AI censorship is the new macro→crypto feed. Banning Anthropic for non-US nationals legitimizes VVV/Venice's thesis — suppression is the demand catalyst, rally amplifies the narrative, rinse. Meanwhile: SpaceX at $2T + Coinbase $4.4B + Securitize $250M all landing on Solana the same week. Macro risk-on opened the window; institutional flows walked through it. BTC fear index is gone from the feed — the lag from last run may have cleared."
+      }
+    }
+  }
+}
