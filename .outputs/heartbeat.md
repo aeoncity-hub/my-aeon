@@ -1,11 +1,9 @@
-HEARTBEAT_OK · STATUS_PAGE=DEGRADED
-
 ## Summary
 
-- **P0:** `article-queue` remains failed (`last_failed: 2026-06-12 17:04 UTC`, `consecutive_failures: 2`). No stuck skills, no API degradation (consecutive_failures < 3), no chronic failures (total_runs < 5).
-- **Heartbeat self-check:** last success 2026-06-14 10:56 UTC (~3h ago) — healthy.
-- **P1:** No open PRs, no urgent issues.
-- **P2:** No flagged memory items.
-- **P3:** Only `heartbeat` is enabled (3×/day); last success ~3h ago, within 2× interval.
-- **Notification:** skipped — article-queue failure is within the 48h dedup window (already reported in today's 08:00 log).
-- **Files modified:** `docs/status.md` (updated timestamp + heartbeat last-run row), `memory/logs/2026-06-14.md` (appended 14:00 UTC entry).
+**HEARTBEAT_OK · STATUS_PAGE=DEGRADED**
+
+- **P0:** `article-queue` remains failed (consecutive_failures=2, success_rate=0%) — overall status is 🔴 DEGRADED. No new notification sent; this item has been in every log for the past 48h and is still within the dedup window.
+- **P1–P3:** Clean — no open PRs, no urgent issues, no flagged memory items, no missing enabled skills.
+- **Heartbeat self-check:** OK (last success 16:15 UTC today, well within 36h threshold).
+- **Status page:** `docs/status.md` updated (heartbeat at 88% success rate, next run 20:00 UTC).
+- **Log:** entry appended to `memory/logs/2026-06-14.md`.
