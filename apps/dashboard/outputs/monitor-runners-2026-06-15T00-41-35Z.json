@@ -1,0 +1,594 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "monitor-runners"
+      },
+      "children": [
+        "header-stack",
+        "sep-1",
+        "token-1",
+        "sep-2",
+        "token-2",
+        "sep-3",
+        "token-3",
+        "sep-4",
+        "token-4",
+        "sep-5",
+        "token-5",
+        "sep-6",
+        "sources-section"
+      ]
+    },
+    "header-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "header-date",
+        "header-verdict"
+      ]
+    },
+    "header-date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-06-15",
+        "variant": "muted"
+      }
+    },
+    "header-verdict": {
+      "type": "Badge",
+      "props": {
+        "text": "SPECULATIVE",
+        "variant": "outline"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "token-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t1-badge",
+        "t1-heading",
+        "t1-metrics",
+        "t1-commentary"
+      ]
+    },
+    "t1-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "[BREAKOUT]",
+        "variant": "destructive"
+      }
+    },
+    "t1-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "TURTLE (solana)",
+        "level": "h3"
+      }
+    },
+    "t1-metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "t1-24h",
+        "t1-vol",
+        "t1-liq",
+        "t1-fdv",
+        "t1-h1",
+        "t1-ratio"
+      ]
+    },
+    "t1-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+1325%",
+        "trend": "up"
+      }
+    },
+    "t1-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$4.2m"
+      }
+    },
+    "t1-liq": {
+      "type": "Stat",
+      "props": {
+        "label": "Liquidity",
+        "value": "$122k"
+      }
+    },
+    "t1-fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "FDV",
+        "value": "$1.86m"
+      }
+    },
+    "t1-h1": {
+      "type": "Stat",
+      "props": {
+        "label": "H1",
+        "value": "+19%",
+        "trend": "up"
+      }
+    },
+    "t1-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Buys:Sells",
+        "value": "31233:26154"
+      }
+    },
+    "t1-commentary": {
+      "type": "Text",
+      "props": {
+        "text": "crossed the 48h mark with $4.2m volume and buyers still dominant; watch for continuation if liq firms above $150k",
+        "variant": "body"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "token-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t2-badge",
+        "t2-heading",
+        "t2-metrics",
+        "t2-commentary"
+      ]
+    },
+    "t2-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "[BREAKOUT]",
+        "variant": "destructive"
+      }
+    },
+    "t2-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "XP (solana)",
+        "level": "h3"
+      }
+    },
+    "t2-metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "t2-24h",
+        "t2-vol",
+        "t2-liq",
+        "t2-fdv",
+        "t2-h1",
+        "t2-ratio"
+      ]
+    },
+    "t2-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+1213%",
+        "trend": "up"
+      }
+    },
+    "t2-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$1.2m"
+      }
+    },
+    "t2-liq": {
+      "type": "Stat",
+      "props": {
+        "label": "Liquidity",
+        "value": "$37k"
+      }
+    },
+    "t2-fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "FDV",
+        "value": "$235k (no mcap)"
+      }
+    },
+    "t2-h1": {
+      "type": "Stat",
+      "props": {
+        "label": "H1",
+        "value": "-5%",
+        "trend": "down"
+      }
+    },
+    "t2-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Buys:Sells",
+        "value": "12398:9882"
+      }
+    },
+    "t2-commentary": {
+      "type": "Text",
+      "props": {
+        "text": "monster 24h move, cooling last hour on razor-thin liq; momentum trade only — not sized for anything beyond a scalp",
+        "variant": "body"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "token-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t3-badge",
+        "t3-heading",
+        "t3-metrics",
+        "t3-commentary"
+      ]
+    },
+    "t3-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "[MICRO-SPEC]",
+        "variant": "secondary"
+      }
+    },
+    "t3-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "SPCX69 (solana)",
+        "level": "h3"
+      }
+    },
+    "t3-metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "t3-24h",
+        "t3-vol",
+        "t3-liq",
+        "t3-fdv",
+        "t3-h1",
+        "t3-ratio"
+      ]
+    },
+    "t3-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+247%",
+        "trend": "up"
+      }
+    },
+    "t3-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$1.2m"
+      }
+    },
+    "t3-liq": {
+      "type": "Stat",
+      "props": {
+        "label": "Liquidity",
+        "value": "$109k"
+      }
+    },
+    "t3-fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "FDV",
+        "value": "$1.89m (no mcap)"
+      }
+    },
+    "t3-h1": {
+      "type": "Stat",
+      "props": {
+        "label": "H1",
+        "value": "+2%",
+        "trend": "up"
+      }
+    },
+    "t3-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Buys:Sells",
+        "value": "26898:5790"
+      }
+    },
+    "t3-commentary": {
+      "type": "Text",
+      "props": {
+        "text": "4.6:1 buyer skew sustained across 3 days is unusual; minimal sell pressure is bullish but also a rug-watch flag",
+        "variant": "body"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "token-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t4-badge",
+        "t4-heading",
+        "t4-metrics",
+        "t4-commentary"
+      ]
+    },
+    "t4-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "[MICRO-SPEC]",
+        "variant": "secondary"
+      }
+    },
+    "t4-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ITO (eth)",
+        "level": "h3"
+      }
+    },
+    "t4-metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "t4-24h",
+        "t4-vol",
+        "t4-liq",
+        "t4-fdv",
+        "t4-h1",
+        "t4-ratio"
+      ]
+    },
+    "t4-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+253%",
+        "trend": "up"
+      }
+    },
+    "t4-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$107k"
+      }
+    },
+    "t4-liq": {
+      "type": "Stat",
+      "props": {
+        "label": "Liquidity",
+        "value": "$74k"
+      }
+    },
+    "t4-fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "FDV",
+        "value": "$134k (no mcap)"
+      }
+    },
+    "t4-h1": {
+      "type": "Stat",
+      "props": {
+        "label": "H1",
+        "value": "-4%",
+        "trend": "down"
+      }
+    },
+    "t4-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Buys:Sells",
+        "value": "503:246"
+      }
+    },
+    "t4-commentary": {
+      "type": "Text",
+      "props": {
+        "text": "dormant eth pool from Jul 2024 waking up with a 2.5x move; thin vol means one actor could drive this — needs follow-through",
+        "variant": "body"
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "token-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "t5-badge",
+        "t5-heading",
+        "t5-metrics",
+        "t5-commentary"
+      ]
+    },
+    "t5-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "[BREAKOUT]",
+        "variant": "destructive"
+      }
+    },
+    "t5-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "BOB (solana)",
+        "level": "h3"
+      }
+    },
+    "t5-metrics": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "t5-24h",
+        "t5-vol",
+        "t5-liq",
+        "t5-fdv",
+        "t5-h1",
+        "t5-ratio"
+      ]
+    },
+    "t5-24h": {
+      "type": "Stat",
+      "props": {
+        "label": "24h",
+        "value": "+205%",
+        "trend": "up"
+      }
+    },
+    "t5-vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume",
+        "value": "$1.1m"
+      }
+    },
+    "t5-liq": {
+      "type": "Stat",
+      "props": {
+        "label": "Liquidity",
+        "value": "$44k"
+      }
+    },
+    "t5-fdv": {
+      "type": "Stat",
+      "props": {
+        "label": "FDV",
+        "value": "$173k (no mcap)"
+      }
+    },
+    "t5-h1": {
+      "type": "Stat",
+      "props": {
+        "label": "H1",
+        "value": "0%",
+        "trend": "neutral"
+      }
+    },
+    "t5-ratio": {
+      "type": "Stat",
+      "props": {
+        "label": "Buys:Sells",
+        "value": "11098:6444"
+      }
+    },
+    "t5-commentary": {
+      "type": "Text",
+      "props": {
+        "text": "under 24h old, $1m+ volume, clean buy ratio — but near-zero liq means price impact per dollar is extreme",
+        "variant": "body"
+      }
+    },
+    "sep-6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "sources-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "sources-heading",
+        "sources-data",
+        "vibe-heading",
+        "vibe-data"
+      ]
+    },
+    "sources-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Sources",
+        "level": "h4"
+      }
+    },
+    "sources-data": {
+      "type": "Text",
+      "props": {
+        "text": "gt-global=ok gt-solana=ok gt-eth=ok gt-base=ok gt-bsc=ok gt-arbitrum=ok gt-new=fail(429)",
+        "variant": "caption"
+      }
+    },
+    "vibe-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Vibe",
+        "level": "h4"
+      }
+    },
+    "vibe-data": {
+      "type": "Text",
+      "props": {
+        "text": "solana meme momentum owns the tape — 4 of 5 picks have sub-$150k liq, this is a retail-driven session",
+        "variant": "body"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "skill": "monitor-runners",
+  "last_analyzed": "2026-06-15T00:41:35Z",
+  "quality_score": 4,
+  "assessment": "Substantive output — 6/7 endpoints fetched, clear top-5 picks with metrics and rationale, appropriate risk flagging (speculative verdict, sub-$150k liquidity), well-structured summary",
+  "flags": [
+    "rate_limited"
+  ],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-06-15",
+      "score": 4
+    }
+  ]
+}
