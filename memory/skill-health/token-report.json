@@ -1,0 +1,16 @@
+{
+  "skill": "token-report",
+  "last_analyzed": "2026-06-15T00:32:37Z",
+  "quality_score": 1,
+  "assessment": "Skill aborted silently with no deliverable — no token report article or notification generated; output is only setup instructions.",
+  "flags": [
+    "empty_output"
+  ],
+  "avg_score": 1,
+  "history": [
+    {
+      "date": "2026-06-15",
+      "score": 1
+    }
+  ]
+}
