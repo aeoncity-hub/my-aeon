@@ -1,0 +1,42 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "stack_alerts"
+      ]
+    },
+    "stack_alerts": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_1",
+        "alert_2"
+      ]
+    },
+    "alert_1": {
+      "type": "Alert",
+      "props": {
+        "title": "FAILED: article-queue",
+        "message": "last failed 2026-06-12 17:04 UTC — zero-token error, consecutive_failures=2",
+        "type": "error"
+      }
+    },
+    "alert_2": {
+      "type": "Alert",
+      "props": {
+        "title": "SELF-CHECK: heartbeat",
+        "message": "last success 2026-06-15 16:26 UTC (~44h ago, threshold 36h) — scheduler appears stalled since June 15",
+        "type": "warning"
+      }
+    }
+  }
+}
