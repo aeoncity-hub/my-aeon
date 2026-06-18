@@ -1,0 +1,207 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "List Digest — 2026-06-18"
+      },
+      "children": [
+        "intro-text",
+        "sep-1",
+        "aeon-heading",
+        "posts-stack",
+        "sep-2",
+        "footer-text"
+      ]
+    },
+    "intro-text": {
+      "type": "Text",
+      "props": {
+        "text": "Aeon v4 postponed as scope expands into tokenized self-improving agents; live demo of Aeon autonomously shipping code to MiroShark is the week's real signal — and the community is calling out the $AEON/Polsia valuation gap.",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "aeon-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "@aeonframework (handle-tracked)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "posts-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "post-1",
+        "post-2",
+        "post-3",
+        "post-4",
+        "post-5"
+      ]
+    },
+    "post-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1",
+        "storylink-1"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "roadmap"
+      },
+      "children": []
+    },
+    "storylink-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Aeon v4 demo absorbed into \"new aeon focus\" and won't ship this week; token-launch runtime + MiroShark X API remain on track. Railway/Bankr downtime contributed to slippage.",
+        "href": "https://x.com/aaronjmars/status/2057435882194424127",
+        "source": "x.com/aaronjmars"
+      },
+      "children": []
+    },
+    "post-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-2",
+        "storylink-2"
+      ]
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "self-ship"
+      },
+      "children": []
+    },
+    "storylink-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "\"Something crazy happened\": Aeon's MiroShark instance autonomously developed and shipped a non-trivial new feature unprompted — the configure-once thesis in live production.",
+        "href": "https://x.com/aaronjmars/status/2055301173578457241",
+        "source": "x.com/aaronjmars"
+      },
+      "children": []
+    },
+    "post-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-3",
+        "storylink-3"
+      ]
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "upcoming"
+      },
+      "children": []
+    },
+    "storylink-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "X Premium adapter for @aeonframework in progress; would replace XAI API dependency with native X data access.",
+        "href": "https://x.com/aaronjmars/status/2055761328048914454",
+        "source": "x.com/aaronjmars"
+      },
+      "children": []
+    },
+    "post-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-4",
+        "storylink-4"
+      ]
+    },
+    "badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "market"
+      },
+      "children": []
+    },
+    "storylink-4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Polsia (agentic-autonomy app) rises at $250M valuation; $AEON token at $6M. Community naming this gap explicitly as an opportunity.",
+        "href": "https://x.com/lord_proto/status/2057892462945763785",
+        "source": "x.com/lord_proto"
+      },
+      "children": []
+    },
+    "post-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-5",
+        "storylink-5"
+      ]
+    },
+    "badge-5": {
+      "type": "Badge",
+      "props": {
+        "text": "ecosystem"
+      },
+      "children": []
+    },
+    "storylink-5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "New community project: Aeon ecosystem visualized as a 3D city, districts = repos, towers = skills. Joined June 2026 — early signal of growing ecosystem surface.",
+        "href": "https://x.com/aeoncity_hub",
+        "source": "x.com/aeoncity_hub"
+      },
+      "children": []
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "footer-text": {
+      "type": "Text",
+      "props": {
+        "text": "sources: @aeonframework=websearch(handle-adapted — var was not a numeric list ID; no cache; sandbox blocked XAI API auth)\nstatus: LIST_DIGEST_OK",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
