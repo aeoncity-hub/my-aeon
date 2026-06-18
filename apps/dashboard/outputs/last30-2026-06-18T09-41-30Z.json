@@ -1,0 +1,24 @@
+{
+  "root": "card-last30",
+  "state": {},
+  "elements": {
+    "card-last30": {
+      "type": "Card",
+      "props": {
+        "title": "last30"
+      },
+      "children": [
+        "alert-error"
+      ]
+    },
+    "alert-error": {
+      "type": "Alert",
+      "props": {
+        "title": "Missing required parameter",
+        "message": "last30 requires var= set to a topic",
+        "type": "error"
+      },
+      "children": []
+    }
+  }
+}

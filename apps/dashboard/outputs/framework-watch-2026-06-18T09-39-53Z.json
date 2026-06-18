@@ -1,0 +1,261 @@
+{
+  "root": "root-card",
+  "state": {},
+  "elements": {
+    "root-card": {
+      "type": "Card",
+      "props": {
+        "title": "AI Framework Watch — 2026-06-18"
+      },
+      "children": [
+        "summary-text",
+        "metrics-stack",
+        "sep1",
+        "movers-heading",
+        "movers-note",
+        "sep2",
+        "releases-heading",
+        "releases-stack",
+        "sep3",
+        "signals-heading",
+        "signals-stack",
+        "sep4",
+        "anchor-heading",
+        "anchor-stack",
+        "sep5",
+        "digest-link"
+      ]
+    },
+    "summary-text": {
+      "type": "Text",
+      "props": {
+        "text": "RELEASE WEEK: 3 frameworks shipped — langgraph, crewAI, mastra",
+        "variant": "lead"
+      }
+    },
+    "metrics-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "frameworks-stat",
+        "releases-stat",
+        "breaking-stat"
+      ]
+    },
+    "frameworks-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Frameworks tracked",
+        "value": "9/9"
+      }
+    },
+    "releases-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Releases (7d)",
+        "value": "5"
+      }
+    },
+    "breaking-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Breaking flags",
+        "value": "0"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "movers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top movers (7d stars)",
+        "level": "h3"
+      }
+    },
+    "movers-note": {
+      "type": "Text",
+      "props": {
+        "text": "First run — baselines set, deltas available next week",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "releases-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Releases worth reading",
+        "level": "h3"
+      }
+    },
+    "releases-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "release1",
+        "release2",
+        "release3",
+        "release4",
+        "release5"
+      ]
+    },
+    "release1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "langchain-ai/langgraph cli==0.4.30",
+        "href": "https://github.com/langchain-ai/langgraph/releases/tag/cli-0.4.30",
+        "source": "2026-06-16",
+        "score": "CLI tooling update"
+      }
+    },
+    "release2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "langchain-ai/langgraph 1.2.5",
+        "href": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.5",
+        "source": "2026-06-12",
+        "score": "patch, no breaking markers"
+      }
+    },
+    "release3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "crewAIInc/crewAI 1.14.7",
+        "href": "https://github.com/crewAIInc/crewAI/releases/tag/1.14.7",
+        "source": "2026-06-11",
+        "score": "stable release"
+      }
+    },
+    "release4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "crewAIInc/crewAI 1.14.8a [PRE]",
+        "href": "https://github.com/crewAIInc/crewAI/releases/tag/1.14.8a",
+        "source": "2026-06-18",
+        "score": "alpha drop"
+      }
+    },
+    "release5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "mastra-ai/mastra @mastra/core@1.42.0",
+        "href": "https://github.com/mastra-ai/mastra/releases/tag/core-1.42.0",
+        "source": "2026-06-12",
+        "score": "stable minor"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "signals-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Signals",
+        "level": "h3"
+      }
+    },
+    "signals-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "autogen-alert",
+        "pydantic-alert"
+      ]
+    },
+    "autogen-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "autogen",
+        "message": "64-day main-branch silence, last release Sep 2025 — possible dormancy",
+        "type": "warning"
+      }
+    },
+    "pydantic-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "pydantic-ai",
+        "message": "v2.0.0b7 active beta track (Jun 10) — major version imminent",
+        "type": "warning"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "anchor-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Anchor (aeon)",
+        "level": "h3"
+      }
+    },
+    "anchor-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "anchor-stars-stat",
+        "anchor-releases-stat",
+        "anchor-note"
+      ]
+    },
+    "anchor-stars-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "★ Stars",
+        "value": "520"
+      }
+    },
+    "anchor-releases-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Releases (7d)",
+        "value": "0"
+      }
+    },
+    "anchor-note": {
+      "type": "Text",
+      "props": {
+        "text": "Ships via commits, no GitHub Releases · active push 2026-06-17",
+        "variant": "caption"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "digest-link": {
+      "type": "Link",
+      "props": {
+        "label": "Full digest",
+        "href": "https://github.com/aeoncity-hub/my-aeon/blob/main/articles/framework-watch-2026-06-18.md"
+      }
+    }
+  }
+}
