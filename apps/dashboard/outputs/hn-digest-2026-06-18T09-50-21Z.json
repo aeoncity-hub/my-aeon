@@ -1,0 +1,458 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "HN Digest — 2026-06-18",
+        "description": "Heavy infra-and-security day — Lore launches a scalability-first VCS, Broadcom fallout drives a 40k-VM exit, and three security/policy stories cluster around OS lockout, AI geopolitics, and AMD firmware."
+      },
+      "children": [
+        "item-1",
+        "separator-1",
+        "item-2",
+        "separator-2",
+        "item-3",
+        "separator-3",
+        "item-4",
+        "separator-4",
+        "item-5",
+        "separator-5",
+        "item-6"
+      ]
+    },
+    "item-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-1",
+        "storylink-1",
+        "matter-1",
+        "hn-take-stack-1",
+        "discussion-link-1"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "Infra & devtools"
+      }
+    },
+    "storylink-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Lore – Open source VCS designed for scalability",
+        "href": "https://lore.org/",
+        "score": "1133 pts · 606 comments"
+      }
+    },
+    "matter-1": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: New open-source VCS targeting the binary-asset scaling pain that breaks git in game dev — going after the niche Perforce has monopolized.",
+        "variant": "body"
+      }
+    },
+    "hn-take-stack-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-take-label-1",
+        "hn-take-text-1"
+      ]
+    },
+    "hn-take-label-1": {
+      "type": "Text",
+      "props": {
+        "text": "HN take:",
+        "variant": "caption"
+      }
+    },
+    "hn-take-text-1": {
+      "type": "Text",
+      "props": {
+        "text": "\"When you have a game that weighs in at 100GB, only a tiny fraction of that is built from code. The rest is binary assets that most VCSs struggle with.\" — pdpi",
+        "variant": "muted"
+      }
+    },
+    "discussion-link-1": {
+      "type": "Link",
+      "props": {
+        "label": "View discussion on HN",
+        "href": "https://news.ycombinator.com/item?id=48571081"
+      }
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-2",
+        "storylink-2",
+        "matter-2",
+        "hn-take-stack-2",
+        "discussion-link-2"
+      ]
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "AI & agents"
+      }
+    },
+    "storylink-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Midjourney Medical",
+        "href": "https://www.midjourney.com/medical/blogpost",
+        "score": "728 pts · 493 comments"
+      }
+    },
+    "matter-2": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Midjourney enters regulated medical imaging — first major generative-image company to stake a claim in a high-stakes clinical vertical.",
+        "variant": "body"
+      }
+    },
+    "hn-take-stack-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-take-label-2",
+        "hn-take-text-2"
+      ]
+    },
+    "hn-take-label-2": {
+      "type": "Text",
+      "props": {
+        "text": "HN take:",
+        "variant": "caption"
+      }
+    },
+    "hn-take-text-2": {
+      "type": "Text",
+      "props": {
+        "text": "\"Even a 99% accurate test becomes statistically useless screening low-incidence conditions — Bayes theorem shows most positives become false alarms requiring unnecessary invasive procedures.\" — arcticbull",
+        "variant": "muted"
+      }
+    },
+    "discussion-link-2": {
+      "type": "Link",
+      "props": {
+        "label": "View discussion on HN",
+        "href": "https://news.ycombinator.com/item?id=48579650"
+      }
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-3",
+        "storylink-3",
+        "matter-3",
+        "hn-take-stack-3",
+        "discussion-link-3"
+      ]
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "Security & policy"
+      }
+    },
+    "storylink-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Volkswagen started blocking GrapheneOS users",
+        "href": "https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3",
+        "score": "677 pts · 406 comments"
+      }
+    },
+    "matter-3": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: VW's app now enforces OS certification checks, locking out privacy-hardened Android users — a precedent that could spread across OEM ecosystems.",
+        "variant": "body"
+      }
+    },
+    "hn-take-stack-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-take-label-3",
+        "hn-take-text-3"
+      ]
+    },
+    "hn-take-label-3": {
+      "type": "Text",
+      "props": {
+        "text": "HN take:",
+        "variant": "caption"
+      }
+    },
+    "hn-take-text-3": {
+      "type": "Text",
+      "props": {
+        "text": "\"GrapheneOS has 99% Android app compatibility...the issue is an anticompetitive tool being used to ban non-certified OSs.\" — HybridStatAnim8",
+        "variant": "muted"
+      }
+    },
+    "discussion-link-3": {
+      "type": "Link",
+      "props": {
+        "label": "View discussion on HN",
+        "href": "https://news.ycombinator.com/item?id=48571526"
+      }
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-4",
+        "storylink-4",
+        "matter-4",
+        "hn-take-stack-4",
+        "discussion-link-4"
+      ]
+    },
+    "badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "Security & policy"
+      }
+    },
+    "storylink-4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "US holds off blacklisting DeepSeek, 100+ firms deemed security risks",
+        "href": "https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/",
+        "score": "458 pts · 509 comments"
+      }
+    },
+    "matter-4": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: A broad Chinese tech blacklist is forming but DeepSeek survives this round — significant for developers relying on open-weight Chinese models.",
+        "variant": "body"
+      }
+    },
+    "hn-take-stack-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-take-label-4",
+        "hn-take-text-4"
+      ]
+    },
+    "hn-take-label-4": {
+      "type": "Text",
+      "props": {
+        "text": "HN take:",
+        "variant": "caption"
+      }
+    },
+    "hn-take-text-4": {
+      "type": "Text",
+      "props": {
+        "text": "\"The irony of big AI labs complaining about Chinese startups scraping their responses, when these same labs built models through similar methods on publicly available content.\" — epolanski",
+        "variant": "muted"
+      }
+    },
+    "discussion-link-4": {
+      "type": "Link",
+      "props": {
+        "label": "View discussion on HN",
+        "href": "https://news.ycombinator.com/item?id=48565498"
+      }
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-5",
+        "storylink-5",
+        "matter-5",
+        "hn-take-stack-5",
+        "discussion-link-5"
+      ]
+    },
+    "badge-5": {
+      "type": "Badge",
+      "props": {
+        "text": "Business & funding"
+      }
+    },
+    "storylink-5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Tesco moving 40k server workloads off VMware amid Broadcom's abusive conduct",
+        "href": "https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/",
+        "score": "317 pts · 182 comments"
+      }
+    },
+    "matter-5": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: One of the largest VMware exits on record; Tesco calling Broadcom's pricing \"abusive\" sets a public benchmark for enterprise vendor lock-in disputes.",
+        "variant": "body"
+      }
+    },
+    "hn-take-stack-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-take-label-5",
+        "hn-take-text-5"
+      ]
+    },
+    "hn-take-label-5": {
+      "type": "Text",
+      "props": {
+        "text": "HN take:",
+        "variant": "caption"
+      }
+    },
+    "hn-take-text-5": {
+      "type": "Text",
+      "props": {
+        "text": "\"40k VMs is a lot of data to move — 500-1000/day is best case, 3 months, and that's after a qualification period examining classes of VMs for unsupported software.\" — rwmj",
+        "variant": "muted"
+      }
+    },
+    "discussion-link-5": {
+      "type": "Link",
+      "props": {
+        "label": "View discussion on HN",
+        "href": "https://news.ycombinator.com/item?id=48576838"
+      }
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "item-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-6",
+        "storylink-6",
+        "matter-6",
+        "hn-take-stack-6",
+        "discussion-link-6"
+      ]
+    },
+    "badge-6": {
+      "type": "Badge",
+      "props": {
+        "text": "AI & agents"
+      }
+    },
+    "storylink-6": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Local Qwen isn't a worse Opus, it's a different tool",
+        "href": "https://blog.alexellis.io/local-ai-is-not-opus/",
+        "score": "211 pts · 97 comments"
+      }
+    },
+    "matter-6": {
+      "type": "Text",
+      "props": {
+        "text": "Why it matters: Reframes local-vs-frontier: local wins on tool-calling latency and privacy, frontier wins on reasoning depth — complementary, not competing.",
+        "variant": "body"
+      }
+    },
+    "hn-take-stack-6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hn-take-label-6",
+        "hn-take-text-6"
+      ]
+    },
+    "hn-take-label-6": {
+      "type": "Text",
+      "props": {
+        "text": "HN take:",
+        "variant": "caption"
+      }
+    },
+    "hn-take-text-6": {
+      "type": "Text",
+      "props": {
+        "text": "\"Local models excel at tool-calling and codebase exploration. Pairing them with frontier models creates efficient workflows where simple work stays local.\" — weitendorf",
+        "variant": "muted"
+      }
+    },
+    "discussion-link-6": {
+      "type": "Link",
+      "props": {
+        "label": "View discussion on HN",
+        "href": "https://news.ycombinator.com/item?id=48580209"
+      }
+    }
+  }
+}
