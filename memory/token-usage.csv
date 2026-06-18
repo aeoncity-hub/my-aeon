@@ -25,3 +25,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-15,monitor-runners,claude-sonnet-4-6,25978,28265,832623,79037
 2026-06-15,heartbeat,claude-sonnet-4-6,8,4147,300326,19447
 2026-06-17,heartbeat,claude-sonnet-4-6,14,7165,604433,37133
+2026-06-18,last30,claude-sonnet-4-6,7,972,183934,16526

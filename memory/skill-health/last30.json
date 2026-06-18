@@ -1,0 +1,17 @@
+{
+  "skill": "last30",
+  "last_analyzed": "2026-06-18T09:26:03Z",
+  "quality_score": 2,
+  "assessment": "Skill executed input validation, not the task—aborted due to missing var= parameter. Helpful error message but no substantive output.",
+  "flags": [
+    "empty_output",
+    "low_quality"
+  ],
+  "avg_score": 2,
+  "history": [
+    {
+      "date": "2026-06-18",
+      "score": 2
+    }
+  ]
+}
