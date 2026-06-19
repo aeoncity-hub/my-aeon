@@ -1,0 +1,95 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat — 🔴 FAILED",
+        "description": "Skill execution report"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-status",
+        "stack-metrics",
+        "stack-timeline",
+        "alert-diagnosis"
+      ]
+    },
+    "alert-status": {
+      "type": "Alert",
+      "props": {
+        "title": "Failed at 2026-06-18 21:15 UTC",
+        "message": "Zero-token/zero-cost run",
+        "type": "error"
+      }
+    },
+    "stack-metrics": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat-consecutive-failures",
+        "stat-run-cost"
+      ]
+    },
+    "stat-consecutive-failures": {
+      "type": "Stat",
+      "props": {
+        "label": "Consecutive failures",
+        "value": "1"
+      }
+    },
+    "stat-run-cost": {
+      "type": "Stat",
+      "props": {
+        "label": "Run cost",
+        "value": "$0 / 0 tokens"
+      }
+    },
+    "stack-timeline": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text-failure-time",
+        "text-last-success"
+      ]
+    },
+    "text-failure-time": {
+      "type": "Text",
+      "props": {
+        "text": "Failed: 2026-06-18 21:15 UTC",
+        "variant": "caption"
+      }
+    },
+    "text-last-success": {
+      "type": "Text",
+      "props": {
+        "text": "Last success: 2026-06-17 21:23 UTC (~35h ago)",
+        "variant": "caption"
+      }
+    },
+    "alert-diagnosis": {
+      "type": "Alert",
+      "props": {
+        "title": "Probable cause",
+        "message": "Agent dispatch is running but executing 0 tokens — likely sandbox or API initialization issue.",
+        "type": "warning"
+      }
+    }
+  }
+}

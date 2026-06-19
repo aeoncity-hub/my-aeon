@@ -1,2 +1,1 @@
-🔴 FAILED: article-queue (last failed 2026-06-12 17:04 UTC — zero-token error, consecutive_failures=2)
-🔴 SELF-CHECK: heartbeat last success 2026-06-15 16:26 UTC (~44h ago, threshold 36h) — scheduler appears stalled since June 15
+🔴 FAILED: heartbeat (2026-06-18 21:15 UTC) — 1 consecutive failure, zero-token/zero-cost run. Last success: 2026-06-17 21:23 UTC (~35h ago). Agent dispatch is running but executing 0 tokens — likely sandbox or API initialization issue.
