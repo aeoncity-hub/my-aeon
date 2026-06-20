@@ -30,3 +30,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-06-18,hn-digest,claude-sonnet-4-6,194,13757,587601,32006
 2026-06-19,heartbeat,claude-sonnet-4-6,343,11140,411912,41196
 2026-06-20,heartbeat,claude-sonnet-4-6,15,9481,673951,39368
+2026-06-20,heartbeat,claude-sonnet-4-6,10,6018,379124,35573
