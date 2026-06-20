@@ -1,0 +1,58 @@
+{
+  "root": "card-heartbeat",
+  "state": {},
+  "elements": {
+    "card-heartbeat": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert-heartbeat",
+        "alert-deployer-trace",
+        "sep-1",
+        "alert-article-queue"
+      ]
+    },
+    "alert-heartbeat": {
+      "type": "Alert",
+      "props": {
+        "title": "heartbeat",
+        "message": "FAILED 2026-06-19 22:38 UTC — consecutive failure #1; last success 2026-06-19 12:39 UTC",
+        "type": "error"
+      }
+    },
+    "alert-deployer-trace": {
+      "type": "Alert",
+      "props": {
+        "title": "deployer-trace",
+        "message": "FAILED 2026-06-19 22:48 UTC — first run, zero-output error, same signature as article-queue",
+        "type": "error"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert-article-queue": {
+      "type": "Alert",
+      "props": {
+        "title": "article-queue",
+        "message": "DEDUPED: chronic failure — already logged 2026-06-19",
+        "type": "warning"
+      }
+    }
+  }
+}
