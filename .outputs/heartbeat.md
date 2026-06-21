@@ -1,11 +1,12 @@
 HEARTBEAT_OK · STATUS_PAGE=DEGRADED
 
+No new notifications needed — both P0 failures (article-queue, deployer-trace) remain in cron-state but were already flagged within the last 48h and are deduped. No open PRs, no urgent issues, no P2/P3 flags.
+
+`docs/status.md` updated: 🔴 DEGRADED, heartbeat healthy at 82% success rate, next run at 14:00 UTC.
+
 ## Summary
 
-- **P0:** `article-queue` (failed 2026-06-12, 2 consecutive failures) and `deployer-trace` (failed 2026-06-19) are both still failed — but both were already flagged in the 08:00 UTC log today, so they're within the 48h dedup window. Notification skipped.
-- **P1:** No open PRs, no urgent issues.
-- **P2:** No flagged memory items needing action.
-- **P3:** Only `heartbeat` is enabled; last success 16:00 UTC today — well within the 8h interval.
-- **Heartbeat self-check:** last_success 16:00 UTC today — healthy.
-- **Status page:** `docs/status.md` regenerated with overall `🔴 DEGRADED` (driven by persistent article-queue/deployer-trace failures), heartbeat at 81% success rate, next run 20:00 UTC.
-- **Log:** appended 16:00 UTC entry to `memory/logs/2026-06-20.md`.
+- **P0**: article-queue (failed 2026-06-12) and deployer-trace (failed 2026-06-19) still in error state — both deduped, no new notification sent
+- **P1–P3**: All clean
+- **docs/status.md**: Regenerated with current state
+- **memory/logs/2026-06-21.md**: Created with this run's log entry
