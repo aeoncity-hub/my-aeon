@@ -40,8 +40,8 @@
     "last_quality_score": 4
   },
   "heartbeat": {
-    "last_dispatch": "2026-07-07T09:18:42Z",
-    "last_status": "failed",
+    "last_dispatch": "2026-07-07T12:13:42Z",
+    "last_status": "dispatched",
     "last_failed": "2026-07-07T09:18:56Z",
     "total_runs": 125,
     "total_successes": 19,
